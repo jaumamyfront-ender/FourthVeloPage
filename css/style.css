@@ -274,225 +274,26 @@ header {
 .mirror {
   flex-flow: row-reverse;
 }
-
-.box6 {
+.boxGalary {
+}
+.boxGalary-Wrapper {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  flex-direction: row;
   flex: 1 1 auto;
-  background-color: #f7f7f7;
-  width: 100%;
-  height: 469px;
-}
-.items {
-  padding: 23px 0 0 0;
-  text-align: center;
-}
-
-.image {
-  margin: 100 0 20 0px;
-}
-.title {
-  font-family: Arial;
-}
-
-.title span:first-child {
-  color: #353738;
-  font-size: 18px;
-  font-weight: 700;
-  letter-spacing: 1.8px;
-}
-
-.title span:last-child {
-  color: #848789;
-  font-weight: 400;
-  letter-spacing: 1.8px;
-  font-size: 16px;
-}
-
-.description {
-  color: #848789;
-  font-family: ARIAL;
-  font-size: 24px;
-  font-style: italic;
-  line-height: 34px;
-  text-align: center;
-  width: 1086px;
-  height: 95px;
-}
-
-.dot {
-  height: 8px;
-  width: 8px;
-  background-color: transparent;
-  border-radius: 50%;
-  display: inline-block;
-  box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 1);
-  margin: 90px 8px 24px 0px;
-}
-
-.dot:hover:nth-child(1) {
-  background-color: #a9afb3;
-}
-.dot:hover:nth-child(2) {
-  background-color: #a9afb3;
-}
-.dot:hover:nth-child(3) {
-  background-color: #a9afb3;
-}
-
-.discover__the__shop {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 190px;
-  background-color: #282f35;
-  color: #ffffff;
-  font-family: ARIAL;
-  font-size: 14px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 2.8px;
-}
-.button {
-  border: 1px solid #e74c45;
-  background-color: #282f35;
-  padding: 20px 60px 20px 60px;
-}
-.stayonthesaddle {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  max-width: 100%;
-  min-width: 80%;
-  margin: 0 auto;
-}
-.stay__img {
-  margin: 100 0 0 0;
-}
-.stay__text {
-  color: #848789;
-  font-family: Arial;
-  font-style: italic;
-  font-size: 24px;
-  line-height: 34px;
-  text-align: center;
-  margin: 39 0 0 0;
-}
-.FormGo {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin-top: 35px;
-  margin-bottom: 100px;
-}
-
-.stay__button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 126px;
-  height: 69px;
-  background-color: #64c29e;
-  margin: 0 0 0 6;
-  overflow: hidden;
-}
-.stay__button p {
-  color: #ffffff;
-  font-family: Lato;
-  font-size: 25px;
-  font-weight: 100;
-  line-height: 24px;
-}
-
-.stay_form {
-  width: 400px;
-  height: 70px;
-  display: block;
-  font-family: inherit;
-  font-family: Arial;
-  border: 1px solid #d3d7d9;
-  background-color: #ffffff;
-  border-radius: 0.25rem;
-  padding-left: 50px;
-  padding-top: 5px;
-}
-.stay_form::placeholder {
-  color: #212529;
-  opacity: 0.4;
-  color: #929292;
-  font-family: Lato;
-  font-size: 26px;
-  font-style: italic;
-  letter-spacing: normal;
-  line-height: 24px;
-  text-align: left;
-  margin-left: -50px;
-}
-
-.footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  width: 100%;
-  height: 260px;
-}
-.footer__left__place__coordinates {
-  display: block;
-  width: 286px;
-  height: 48px;
-}
-.footer__left__place__coordinates p {
-  margin-bottom: 3px;
-}
-.footer__left__place__coordinates p:first-child {
-  color: #848789;
-  font-size: 17px;
-  font-weight: 700;
-}
-.footer__left__place__coordinates p:nth-child(2) {
-  font-style: italic;
-  color: #848789;
-  font-size: 15px;
-  font-weight: 300;
-}
-.footer__left__place__coordinates p:last-child {
-  font-style: italic;
-  color: #848789;
-  font-size: 15px;
-  font-weight: 300;
-}
-
-.foter_social_img {
-  display: flex;
-  flex-direction: row;
-  width: 145px;
-  height: 45px;
   justify-content: space-between;
-  align-items: center;
-  margin-right: 140px;
+}
+.boxGalary-left {
+  width: 100%;
+}
+.boxGalary-left img {
+  width: 100%;
+  object-fit: contain;
 }
 
-.footer_right__place__description {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: center;
-  align-items: center;
+.boxGalary-Right {
+  width: 100%;
 }
-.footer_right__place__description p {
-  color: #848789;
-  font-family: Lato;
-  font-size: 14px;
-  font-style: italic;
-  letter-spacing: normal;
-  line-height: 17.87px;
-}
-.yeboo {
-  margin-left: 7px;
+.boxGalary-Right img {
+  width: 100%;
+  object-fit: contain;
 }
