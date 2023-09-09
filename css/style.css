@@ -79,26 +79,14 @@ h6 {
   flex-direction: column;
   overflow: hidden;
   flex: 1 1 auto;
-  /* min-width: 1375px; */
-  /* align-items: center;
-  justify-content: center; */
-  /* max-width: 1859px; */
 }
 
 header {
   display: flex;
   width: 100%;
-  /* align-items: center; */
   justify-content: center;
   padding: 25px 25px;
   background: #eaeaf2;
-  /* background-image: url(../assets/boxFourth/Layer_7.png);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: 100% 100%;
-  justify-content: center;
-  padding: 25px;  */
 }
 
 .header__row {
@@ -124,8 +112,6 @@ header {
   max-width: 100%;
 }
 .header {
-  /* max-width: 100%;
-  max-height: 100%; */
 }
 .header__image {
   width: 100%;
@@ -148,7 +134,8 @@ header {
 
 .box__about-container {
   max-width: 1109px;
-  max-height: 150px;
+  padding: 0px 20px 0px 20px;
+  /* max-height: 150px; */
 }
 
 .items__title {
@@ -173,9 +160,6 @@ header {
 .box__description {
   display: flex;
   flex: 1 1 auto;
-  /* justify-content: center;
-  align-items: center; */
-  /* height: auto; */
 }
 .box__description-leftSide {
   display: flex;
@@ -333,6 +317,90 @@ header {
   width: 100%;
   height: 100%;
   object-fit: fill;
+}
+.container__galary {
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+}
+.item {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 35%;
+}
+.item img {
+  width: 50%;
+  object-fit: cover;
+}
+.image__down {
+  width: 100%;
+}
+.image__down img {
+  width: 100%;
+  object-fit: cover;
+}
+.right {
+  position: relative;
+}
+.logo__right {
+  width: 100px;
+  height: 50px;
+  position: absolute;
+  top: 18%;
+  left: 40%;
+}
+.logo__right p {
+  text-transform: uppercase;
+  color: aliceblue;
+  margin: 0px;
+  font-size: 14px;
+}
+.logo__right img {
+  margin-left: 15px;
+  width: 40%;
+  height: 40%;
+  object-fit: contain;
+}
+
+@media screen and (min-width: 210px) and (max-width: 766px) {
+  body {
+    margin: 4px;
+  }
+  .container__galary {
+    flex-direction: column;
+    height: auto;
+  }
+  .item {
+    width: 100%;
+    padding-bottom: 5px;
+    justify-content: space-between;
+  }
+  .item img {
+    width: 48%;
+    border-radius: 10px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border: 1px rgb(18, 17, 17);
+  }
+  .image__down {
+    width: 100%;
+  }
+  .image__down img {
+    width: 99%;
+  }
+  .logo__right {
+    width: 150px;
+    height: 100px;
+  }
+  .logo__right p {
+    font-size: 20px;
+  }
+  .logo__right img {
+    width: 50%;
+    height: 50%;
+  }
 }
 
 .box6 {
@@ -555,4 +623,97 @@ header {
 }
 .yeboo {
   margin-left: 7px;
+}
+@media screen and (min-width: 300px) and (max-width: 550px) {
+}
+@media screen and (min-width: 200px) and (max-width: 400px) {
+  .box__about {
+    height: auto;
+  }
+  .items__title {
+    margin-bottom: 8px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2.6px;
+    margin-top: 15px;
+  }
+  .items__description {
+    margin-bottom: 15px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: justify;
+  }
+  .box__description {
+    flex-direction: column;
+  }
+  .box__description-leftSide {
+    width: 100%;
+  }
+  .box__description-RightSide-container {
+    height: auto;
+  }
+  .box__description-RightSide-itemThree p {
+    padding: 20 0 0 0;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: justify;
+  }
+  .box__description-RightSide-itemTwo {
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2.6px;
+    margin-top: 10px;
+  }
+  .LogoImageLayerBox {
+    max-width: 50px;
+    max-height: 50px;
+    top: 40%;
+    left: 40%;
+  }
+  .box__description-RightSide-itemOne {
+    width: 25px;
+    height: 25px;
+  }
+  .box__description-RightSide-itemOne img {
+    width: 100%;
+    height: 100%;
+  }
+  .box__description-RightSide-itemFourLine {
+    margin: 5px 0px 15px 0px;
+  }
+  .boxGalary-Wrapper {
+    flex-direction: column;
+  }
+  .boxGalary-leftLogo {
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    width: 100px;
+    height: 100px;
+  }
+  .logo__right {
+    width: 70px;
+    height: 70px;
+  }
+  .logo__right p {
+    font-size: 10px;
+    margin-left: 5px;
+    margin-top: -8px;
+  }
+  .description {
+    color: #848789;
+    font-family: ARIAL;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 14px;
+    text-align: center;
+    width: auto;
+    height: 95px;
+  }
+  .box6 {
+    height: auto;
+  }
 }
