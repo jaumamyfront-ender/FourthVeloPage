@@ -80,7 +80,7 @@ h6 {
 
 body {
   margin: 0 auto;
-  padding: 0px 9px 0px 3px;
+  /* padding: 0px 9px 0px 3px; */
 }
 body._lock {
   overflow: hidden;
@@ -409,9 +409,6 @@ header {
   margin-top: 20px;
 }
 @media screen and (min-width: 210px) and (max-width: 766px) {
-  body {
-    margin: 4px;
-  }
   .container__galary {
     flex-direction: column;
     height: auto;
@@ -782,6 +779,12 @@ header {
   .stayonthesaddle {
     border-radius: 7%;
   }
+  img {
+    border-radius: 8%;
+  }
+  body {
+    padding: 0% 5%;
+  }
   .image {
     margin-top: 20px;
   }
@@ -1074,4 +1077,10 @@ header {
   .header__row {
     display: none;
   }
+  header {
+    padding: 0px;
+  }
+}
+form input {
+  font-size: 30px;
 }
