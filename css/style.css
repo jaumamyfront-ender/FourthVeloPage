@@ -405,7 +405,9 @@ header {
   height: 40%;
   object-fit: contain;
 }
-
+.hoverNav {
+  margin-top: 20px;
+}
 @media screen and (min-width: 210px) and (max-width: 766px) {
   body {
     margin: 4px;
