@@ -82,3 +82,29 @@
     height: 50%;
   }
 }
+header {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding: 25px 25px;
+  background: #eaeaf2;
+}
+
+.header__row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex: 1 1 auto;
+  align-items: center;
+  max-width: 618px;
+  max-height: 85px;
+}
+.header__row-item {
+  text-transform: uppercase;
+  color: #4d4959;
+  font-size: 13px;
+  font-weight: 700;
+  margin: -15 0 0 0;
+  font-family: ARIAL;
+  letter-spacing: 1.6px;
+}

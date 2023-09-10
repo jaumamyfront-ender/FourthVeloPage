@@ -6,25 +6,51 @@
   <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" type="text/css" href="css/style.css" />
+
   <title>Document</title>
 </head>
 
 <body>
   <div class="wrapper">
     <header>
+      <div class="burger">
+        <div class="header__menu menu">
+          <div class="menu__icon">
+            <span></span>
+          </div>
+          <nav class="menu__body">
+            <ul class="menu__list">
+              <li>
+                <a data-goto=".page__section_1" href="#" class="menu__link">About Us</a>
+              </li>
+              <li>
+                <a data-goto=".page__section_2" href="#" class="menu__link">work</a>
+              </li>
+              <li>
+                <a data-goto=".page__section_3" href="#" class="menu__link">shop</a>
+              </li>
+              <li>
+                <a data-goto=".page__section_4" href="#" class="menu__link">Contact Us</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
       <div class="header__row">
-        <div class="header__row-item">about us</div>
-        <div class="header__row-item">work</div>
+        <div class="header__row-item"><a data-goto=".page__section_1" href="" class="menu__link">about</a></div>
+        <div class="header__row-item"><a data-goto=".page__section_2" href="" class="menu__link">work</a></div>
         <div class="logo"><img src="assets/Logo.png" /></div>
-        <div class="header__row-item">shop</div>
-        <div class="header__row-item">contact</div>
+        <div class="header__row-item"><a data-goto=".page__section_3" href="" class="menu__link">shop</a></div>
+        <div class="header__row-item"><a data-goto=".page__section_4" href="" class="menu__link">contact</a></div>
       </div>
     </header>
+
+
     <main>
       <div class="header">
         <img class="header__image" src="./assets/Header/layer.png" alt="#" />
       </div>
-      <div class="box__about">
+      <div class="box__about page__section_1">
         <div class="box__about-container">
           <div class="items__title">A NEW GENERATION OF VINTAGE BIKE</div>
           <div class="items__description">
@@ -74,7 +100,7 @@
           </div>
         </div>
       </div>
-      <div class="box__description mirror">
+      <div class="box__description mirror page__section_2 ">
         <div class="box__description-leftSide">
           <img src="./assets/boxSecond/Layer_12.png" alt="" />
           <div class="LogoImageLayerBox">
@@ -150,7 +176,7 @@
           </div>
         </div>
       </div>
-      <div class="container__galary">
+      <div class="container__galary page__section_3">
         <div class="item left">
           <img src="../assets/boxFourth/left/sidushkablacksmall.png" alt="" /><img
             src="../assets/boxFourth/left/sidushkax.png" alt="" />
@@ -213,7 +239,7 @@
       </div>
     </main>
     <footer>
-      <div class="footer">
+      <div class="footer page__section_4">
         <div class="footer__left__place__coordinates">
           <p>AOD New York</p>
           <p>2250 Lexington Avenue</p>
@@ -240,5 +266,6 @@
     </footer>
   </div>
 </body>
+<script src="./scripts/script.js"></script>
 
 </html>
